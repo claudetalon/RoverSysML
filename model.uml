@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_BrclIHGREeSN8YvF417dig" name="SysMLmodel">
+    <packagedElement xmi:type="uml:Package" xmi:id="_mRkYAHGSEeSN8YvF417dig" name="Context">
+      <packagedElement xmi:type="uml:Class" xmi:id="_L6430HGVEeSN8YvF417dig" name="Name"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L65e4HGVEeSN8YvF417dig" name="ROVER_FUNC_010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L65e4XGVEeSN8YvF417dig" name="ROVER_FUNC_020"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L65e4nGVEeSN8YvF417dig" name="ROVER_FUNC_030"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L66tAHGVEeSN8YvF417dig" name="ROVER_HARD_010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L67UEHGVEeSN8YvF417dig" name="ROVER_HARD_020"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L677IHGVEeSN8YvF417dig" name="ROVER_NFUNC_010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iMHGVEeSN8YvF417dig" name="ROVER_NFUNC_020"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iMXGVEeSN8YvF417dig" name="ROVER_NFUNC_030"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iMnGVEeSN8YvF417dig" name="ROVER_NFUNC_040"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iM3GVEeSN8YvF417dig" name="ROVER_FUNC_040"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iNHGVEeSN8YvF417dig" name="ROVER_FUNC_050"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iNXGVEeSN8YvF417dig" name="ROVER_SAFE_010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iNnGVEeSN8YvF417dig" name="ROVER_FUNC_060"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iN3GVEeSN8YvF417dig" name="ROVER_FUNC_070"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iOHGVEeSN8YvF417dig" name="ROVER_FUNC_080"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L68iOXGVEeSN8YvF417dig" name="ROVER_SAFE_020"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_dmwf0HGZEeSN8YvF417dig" name="BDD">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rX9T8HGbEeSN8YvF417dig" name="Rover">
+          <packagedElement xmi:type="uml:Class" xmi:id="_AuV4IHGbEeSN8YvF417dig" name="Rover">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_IT5UQHGbEeSN8YvF417dig" name="sensors_1" type="_CGD5AHGbEeSN8YvF417dig" aggregation="composite" association="_IT3fEHGbEeSN8YvF417dig"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_I5QEEHGbEeSN8YvF417dig" name="chassis_1" type="_BZl0kHGbEeSN8YvF417dig" aggregation="composite" association="_I5OO4HGbEeSN8YvF417dig"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ZaQ_UHGbEeSN8YvF417dig" name="alim_1" type="_Yl1RsHGbEeSN8YvF417dig" association="_ZaPKIHGbEeSN8YvF417dig"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BZl0kHGbEeSN8YvF417dig" name="Chassis"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CGD5AHGbEeSN8YvF417dig" name="Sensors"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_IT3fEHGbEeSN8YvF417dig" memberEnd="_IT5UQHGbEeSN8YvF417dig _IT57UHGbEeSN8YvF417dig">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IT4GIHGbEeSN8YvF417dig" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IT4tMHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_IT57UHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_IT3fEHGbEeSN8YvF417dig"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_I5OO4HGbEeSN8YvF417dig" memberEnd="_I5QEEHGbEeSN8YvF417dig _I5QrIHGbEeSN8YvF417dig">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I5O18HGbEeSN8YvF417dig" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I5PdAHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_I5QrIHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_I5OO4HGbEeSN8YvF417dig"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Yl1RsHGbEeSN8YvF417dig" name="Alim"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ZaPKIHGbEeSN8YvF417dig" memberEnd="_ZaQ_UHGbEeSN8YvF417dig _ZaRmYHGbEeSN8YvF417dig">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZaPxMHGbEeSN8YvF417dig" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZaQYQHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ZaRmYHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_ZaPKIHGbEeSN8YvF417dig"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ufYCwHGZEeSN8YvF417dig" name="Requirements Diagram"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_E4ukAHGSEeSN8YvF417dig" name="System Specification">
+      <packagedElement xmi:type="uml:Package" xmi:id="_PM3GQHGSEeSN8YvF417dig" name="General Needs"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ph4UAHGSEeSN8YvF417dig" name="Technical Needs"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_K1Qz4HGSEeSN8YvF417dig" name="System Design">
+      <packagedElement xmi:type="uml:Package" xmi:id="_QrY5wHGSEeSN8YvF417dig" name="Functional Architecture"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RGp5cHGSEeSN8YvF417dig" name="Domain-specific Data"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RLSh0HGSEeSN8YvF417dig" name="Logical Architecture"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RPSRAHGSEeSN8YvF417dig" name="Physical Architecture"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RTWRoHGSEeSN8YvF417dig" name="Alocations"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kbx7EHGSEeSN8YvF417dig" name="System Test"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CKiU4HGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CKmmUHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CKvJMHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CKvwQHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK2d8HGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK3sEHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK46MHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK5hQHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK6IUHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK6vYHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK7WcHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK7WcXGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK9LoHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK9ysHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK-ZwHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CK_A0HGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CK_n4HGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLAO8HGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CLBdEHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLCEIHGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CLDSQHGREeSN8YvF417dig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLDSQXGREeSN8YvF417dig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_L7CBwHGVEeSN8YvF417dig" text="Description" id="ID" base_Class="_L6430HGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBwXGVEeSN8YvF417dig" text="The Rover must support various payloads (sensors/camera/robotic arm) thanks to a pluggable software architecture" id="ROVER_FUNC_010" base_Class="_L65e4HGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBwnGVEeSN8YvF417dig" text="The Rover must explore a flat room (without holes) autonomously" id="ROVER_FUNC_020" base_Class="_L65e4XGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBw3GVEeSN8YvF417dig" text="The Rover must report a map of the explored environment" id="ROVER_FUNC_030" base_Class="_L65e4nGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBxHGVEeSN8YvF417dig" text="The Rover must be built with the Polulu Dagu Rover 5 platform" id="ROVER_HARD_010" base_Class="_L66tAHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBxXGVEeSN8YvF417dig" text="The Rover must be built with widely available hardware pieces (Arduino, Raspberry Pi)" id="ROVER_HARD_020" base_Class="_L67UEHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBxnGVEeSN8YvF417dig" text="Battery must provide an autonomy of at least 10mn" id="ROVER_NFUNC_010" base_Class="_L677IHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBx3GVEeSN8YvF417dig" text="The Rover must be assembled with limited soldering capabilities" id="ROVER_NFUNC_020" base_Class="_L68iMHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CByHGVEeSN8YvF417dig" text="The Rover must be packageable for flight travel (less than 10Kg including a flight case, handluggage max dimensions)" id="ROVER_NFUNC_030" base_Class="_L68iMXGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CByXGVEeSN8YvF417dig" text="The total price of the Rover must be less than 200$" id="ROVER_NFUNC_040" base_Class="_L68iMnGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBynGVEeSN8YvF417dig" text="The Rover must explore dangerous areas (with many obstacles/holes, …)" id="ROVER_FUNC_040" base_Class="_L68iM3GVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBy3GVEeSN8YvF417dig" text="The Rover must be controlled through an Android application" id="ROVER_FUNC_050" base_Class="_L68iNHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBzHGVEeSN8YvF417dig" text="The Rover must avoid crash in obstacles" id="ROVER_SAFE_010" base_Class="_L68iNXGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBzXGVEeSN8YvF417dig" text="The Rover must be controlled through an IoS application" id="ROVER_FUNC_060" base_Class="_L68iNnGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBznGVEeSN8YvF417dig" text="The Rover must provide images of the explored environment" id="ROVER_FUNC_070" base_Class="_L68iN3GVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CBz3GVEeSN8YvF417dig" text="The Rover must differentiate walls from inclined pathway" id="ROVER_FUNC_080" base_Class="_L68iOHGVEeSN8YvF417dig"/>
+  <Requirements:Requirement xmi:id="_L7CB0HGVEeSN8YvF417dig" text="The Rover must avoid falling on its backside" id="ROVER_SAFE_020" base_Class="_L68iOXGVEeSN8YvF417dig"/>
+  <Blocks:Block xmi:id="_AuXGQHGbEeSN8YvF417dig" base_Class="_AuV4IHGbEeSN8YvF417dig"/>
+  <Blocks:Block xmi:id="_BZmboHGbEeSN8YvF417dig" base_Class="_BZl0kHGbEeSN8YvF417dig"/>
+  <Blocks:Block xmi:id="_CGFHIHGbEeSN8YvF417dig" base_Class="_CGD5AHGbEeSN8YvF417dig"/>
+  <Blocks:Block xmi:id="_Yl2f0HGbEeSN8YvF417dig" base_Class="_Yl1RsHGbEeSN8YvF417dig"/>
+</xmi:XMI>
