@@ -21,31 +21,52 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_L68iOXGVEeSN8YvF417dig" name="ROVER_SAFE_020"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_dmwf0HGZEeSN8YvF417dig" name="BDD">
         <packagedElement xmi:type="uml:Package" xmi:id="_rX9T8HGbEeSN8YvF417dig" name="Rover">
-          <packagedElement xmi:type="uml:Class" xmi:id="_AuV4IHGbEeSN8YvF417dig" name="Rover">
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_IT5UQHGbEeSN8YvF417dig" name="sensors_1" type="_CGD5AHGbEeSN8YvF417dig" aggregation="composite" association="_IT3fEHGbEeSN8YvF417dig"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_I5QEEHGbEeSN8YvF417dig" name="chassis_1" type="_BZl0kHGbEeSN8YvF417dig" aggregation="composite" association="_I5OO4HGbEeSN8YvF417dig"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_ZaQ_UHGbEeSN8YvF417dig" name="alim_1" type="_Yl1RsHGbEeSN8YvF417dig" association="_ZaPKIHGbEeSN8YvF417dig"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_rofLwIEcEeSDxvLL8PGrJg" name="Rover">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2NmJQ4EcEeSDxvLL8PGrJg" name="sensors_1" type="_tY5ZcIEcEeSDxvLL8PGrJg" aggregation="composite" association="_2NmJQIEcEeSDxvLL8PGrJg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2zTeY4EcEeSDxvLL8PGrJg" name="battery_1" type="_uDP-AIEcEeSDxvLL8PGrJg" aggregation="composite" association="_2zTeYIEcEeSDxvLL8PGrJg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_3bPBE4EcEeSDxvLL8PGrJg" name="chassis_1" type="_vmpqcIEcEeSDxvLL8PGrJg" aggregation="composite" association="_3bPBEIEcEeSDxvLL8PGrJg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4I-344EcEeSDxvLL8PGrJg" name="robotic arm_1" type="_wQ1P4IEcEeSDxvLL8PGrJg" aggregation="composite" association="_4I-34IEcEeSDxvLL8PGrJg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4t8mI4EcEeSDxvLL8PGrJg" name="camera_1" type="_xLObkIEcEeSDxvLL8PGrJg" aggregation="composite" association="_4t8mIIEcEeSDxvLL8PGrJg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_BZl0kHGbEeSN8YvF417dig" name="Chassis"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_CGD5AHGbEeSN8YvF417dig" name="Sensors"/>
-          <packagedElement xmi:type="uml:Association" xmi:id="_IT3fEHGbEeSN8YvF417dig" memberEnd="_IT5UQHGbEeSN8YvF417dig _IT57UHGbEeSN8YvF417dig">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IT4GIHGbEeSN8YvF417dig" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IT4tMHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_IT57UHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_IT3fEHGbEeSN8YvF417dig"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tY5ZcIEcEeSDxvLL8PGrJg" name="Sensors">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2NmJRIEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_2NmJQIEcEeSDxvLL8PGrJg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_I5OO4HGbEeSN8YvF417dig" memberEnd="_I5QEEHGbEeSN8YvF417dig _I5QrIHGbEeSN8YvF417dig">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I5O18HGbEeSN8YvF417dig" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I5PdAHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_I5QrIHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_I5OO4HGbEeSN8YvF417dig"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uDP-AIEcEeSDxvLL8PGrJg" name="Battery">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2zTeZIEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_2zTeYIEcEeSDxvLL8PGrJg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_Yl1RsHGbEeSN8YvF417dig" name="Alim"/>
-          <packagedElement xmi:type="uml:Association" xmi:id="_ZaPKIHGbEeSN8YvF417dig" memberEnd="_ZaQ_UHGbEeSN8YvF417dig _ZaRmYHGbEeSN8YvF417dig">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZaPxMHGbEeSN8YvF417dig" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZaQYQHGbEeSN8YvF417dig" key="nature" value="SysML_Nature"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vmpqcIEcEeSDxvLL8PGrJg" name="Chassis">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_3bPBFIEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_3bPBEIEcEeSDxvLL8PGrJg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wQ1P4IEcEeSDxvLL8PGrJg" name="Robotic Arm">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4I-35IEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_4I-34IEcEeSDxvLL8PGrJg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xLObkIEcEeSDxvLL8PGrJg" name="Camera">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4t8mJIEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_4t8mIIEcEeSDxvLL8PGrJg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_2NmJQIEcEeSDxvLL8PGrJg" memberEnd="_2NmJQ4EcEeSDxvLL8PGrJg _2NmJRIEcEeSDxvLL8PGrJg">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2NmJQYEcEeSDxvLL8PGrJg" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2NmJQoEcEeSDxvLL8PGrJg" key="nature" value="SysML_Nature"/>
             </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_ZaRmYHGbEeSN8YvF417dig" name="rover_1" type="_AuV4IHGbEeSN8YvF417dig" association="_ZaPKIHGbEeSN8YvF417dig"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_2zTeYIEcEeSDxvLL8PGrJg" memberEnd="_2zTeY4EcEeSDxvLL8PGrJg _2zTeZIEcEeSDxvLL8PGrJg">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2zTeYYEcEeSDxvLL8PGrJg" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2zTeYoEcEeSDxvLL8PGrJg" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_3bPBEIEcEeSDxvLL8PGrJg" memberEnd="_3bPBE4EcEeSDxvLL8PGrJg _3bPBFIEcEeSDxvLL8PGrJg">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3bPBEYEcEeSDxvLL8PGrJg" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3bPBEoEcEeSDxvLL8PGrJg" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_4I-34IEcEeSDxvLL8PGrJg" memberEnd="_4I-344EcEeSDxvLL8PGrJg _4I-35IEcEeSDxvLL8PGrJg">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4I-34YEcEeSDxvLL8PGrJg" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4I-34oEcEeSDxvLL8PGrJg" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_4t8mIIEcEeSDxvLL8PGrJg" memberEnd="_4t8mI4EcEeSDxvLL8PGrJg _4t8mJIEcEeSDxvLL8PGrJg">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4t8mIYEcEeSDxvLL8PGrJg" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4t8mIoEcEeSDxvLL8PGrJg" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
           </packagedElement>
         </packagedElement>
       </packagedElement>
@@ -147,8 +168,10 @@
   <Requirements:Requirement xmi:id="_L7CBznGVEeSN8YvF417dig" text="The Rover must provide images of the explored environment" id="ROVER_FUNC_070" base_Class="_L68iN3GVEeSN8YvF417dig"/>
   <Requirements:Requirement xmi:id="_L7CBz3GVEeSN8YvF417dig" text="The Rover must differentiate walls from inclined pathway" id="ROVER_FUNC_080" base_Class="_L68iOHGVEeSN8YvF417dig"/>
   <Requirements:Requirement xmi:id="_L7CB0HGVEeSN8YvF417dig" text="The Rover must avoid falling on its backside" id="ROVER_SAFE_020" base_Class="_L68iOXGVEeSN8YvF417dig"/>
-  <Blocks:Block xmi:id="_AuXGQHGbEeSN8YvF417dig" base_Class="_AuV4IHGbEeSN8YvF417dig"/>
-  <Blocks:Block xmi:id="_BZmboHGbEeSN8YvF417dig" base_Class="_BZl0kHGbEeSN8YvF417dig"/>
-  <Blocks:Block xmi:id="_CGFHIHGbEeSN8YvF417dig" base_Class="_CGD5AHGbEeSN8YvF417dig"/>
-  <Blocks:Block xmi:id="_Yl2f0HGbEeSN8YvF417dig" base_Class="_Yl1RsHGbEeSN8YvF417dig"/>
+  <Blocks:Block xmi:id="_rofLwYEcEeSDxvLL8PGrJg" base_Class="_rofLwIEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_tY5ZcYEcEeSDxvLL8PGrJg" base_Class="_tY5ZcIEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_uDP-AYEcEeSDxvLL8PGrJg" base_Class="_uDP-AIEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_vmy0YIEcEeSDxvLL8PGrJg" base_Class="_vmpqcIEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_wQ1P4YEcEeSDxvLL8PGrJg" base_Class="_wQ1P4IEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_xLObkYEcEeSDxvLL8PGrJg" base_Class="_xLObkIEcEeSDxvLL8PGrJg"/>
 </xmi:XMI>
