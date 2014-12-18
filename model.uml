@@ -27,6 +27,7 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_3bPBE4EcEeSDxvLL8PGrJg" name="chassis_1" type="_vmpqcIEcEeSDxvLL8PGrJg" aggregation="composite" association="_3bPBEIEcEeSDxvLL8PGrJg"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_4I-344EcEeSDxvLL8PGrJg" name="robotic arm_1" type="_wQ1P4IEcEeSDxvLL8PGrJg" aggregation="composite" association="_4I-34IEcEeSDxvLL8PGrJg"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_4t8mI4EcEeSDxvLL8PGrJg" name="camera_1" type="_xLObkIEcEeSDxvLL8PGrJg" aggregation="composite" association="_4t8mIIEcEeSDxvLL8PGrJg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_GYYaw4aMEeS6CoXzyqdBJQ" name="contexte_1" type="_dAk3AIaJEeSUIMSb8gnbYw" association="_GYOpwIaMEeS6CoXzyqdBJQ"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_tY5ZcIEcEeSDxvLL8PGrJg" name="Sensors">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_2NmJRIEcEeSDxvLL8PGrJg" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" association="_2NmJQIEcEeSDxvLL8PGrJg"/>
@@ -70,7 +71,20 @@
           </packagedElement>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dAk3AIaJEeSUIMSb8gnbYw" name="Contexte">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_GYYawoaMEeS6CoXzyqdBJQ" name="rover_1" type="_rofLwIEcEeSDxvLL8PGrJg" aggregation="composite" association="_GYOpwIaMEeS6CoXzyqdBJQ"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_ufYCwHGZEeSN8YvF417dig" name="Requirements Diagram"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KAW48IaKEeSUIMSb8gnbYw" name="Actors">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_QYT5gIaKEeSUIMSb8gnbYw" name="Technician"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Wj_YoIaKEeSUIMSb8gnbYw" name="Manufacturer"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_b0QYYIaKEeSUIMSb8gnbYw" name="Controller"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_GYOpwIaMEeS6CoXzyqdBJQ" memberEnd="_GYYawoaMEeS6CoXzyqdBJQ _GYYaw4aMEeS6CoXzyqdBJQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GYYawIaMEeS6CoXzyqdBJQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GYYawYaMEeS6CoXzyqdBJQ" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_E4ukAHGSEeSN8YvF417dig" name="System Specification">
       <packagedElement xmi:type="uml:Package" xmi:id="_PM3GQHGSEeSN8YvF417dig" name="General Needs"/>
@@ -174,4 +188,5 @@
   <Blocks:Block xmi:id="_vmy0YIEcEeSDxvLL8PGrJg" base_Class="_vmpqcIEcEeSDxvLL8PGrJg"/>
   <Blocks:Block xmi:id="_wQ1P4YEcEeSDxvLL8PGrJg" base_Class="_wQ1P4IEcEeSDxvLL8PGrJg"/>
   <Blocks:Block xmi:id="_xLObkYEcEeSDxvLL8PGrJg" base_Class="_xLObkIEcEeSDxvLL8PGrJg"/>
+  <Blocks:Block xmi:id="_dBBi8IaJEeSUIMSb8gnbYw" base_Class="_dAk3AIaJEeSUIMSb8gnbYw"/>
 </xmi:XMI>
