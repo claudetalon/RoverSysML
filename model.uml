@@ -181,6 +181,7 @@
           <packagedElement xmi:type="uml:UseCase" xmi:id="_leBq0IaREeS6CoXzyqdBJQ" name="Explorer un environnement avec le Rover"/>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_i96MkIaTEeS6CoXzyqdBJQ" name="State Diagram"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_E4ukAHGSEeSN8YvF417dig" name="System Specification">
       <packagedElement xmi:type="uml:Package" xmi:id="_PM3GQHGSEeSN8YvF417dig" name="General Needs"/>
